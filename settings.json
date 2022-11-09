@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.fontFamily": "'JetBrains Mono SemiBold'",
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 25,
+    "git.confirmSync": false,
+    "window.zoomLevel": 1,
+    "python.defaultInterpreterPath": "/home/hasser1/envs/insaite/bin/python",
+    "workbench.startupEditor": "none",
+    "todohighlight.isEnable": true,
+    "editor.rulers": [80],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "TOFIX",
+            "color": "#dfff11",
+            "backgroundColor": "#9d2933",
+            "isWholeLine": true,
+        },
+        {
+            "text": "TODO",
+            "color": "#f7022a",
+            "backgroundColor": "#372d52",
+            "isWholeLine": true,
+        }
+    ],
+    "editor.minimap.showSlider": "always",
+    "diffEditor.ignoreTrimWhitespace": false
+}
