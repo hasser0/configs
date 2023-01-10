@@ -3,7 +3,7 @@ Description=Jupyter-Notebook Daemon
 
 [Service]
 Type=simple
-ExecStart=/bin/bash -c "/home/hasser1/envs/insaite/bin/jupyter-lab --no-browser --notebook-dir=/home/hasser1" --ResourceUseDisplay.mem_limit
+ExecStart=/bin/bash -c "/home/hasser1/envs/insaite/bin/jupyter-lab --no-browser --notebook-dir=/home/hasser1"
 WorkingDirectory=/home/hasser1
 User=hasser1
 Group=hasser1

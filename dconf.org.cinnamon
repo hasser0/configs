@@ -1,0 +1,128 @@
+[/]
+alttab-minimized-aware=false
+alttab-switcher-delay=250
+alttab-switcher-enforce-primary-monitor=false
+alttab-switcher-show-all-workspaces=false
+alttab-switcher-style='icons'
+desklet-snap-interval=25
+desktop-effects-maximize=true
+desktop-effects-minimize='traditional'
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:show-desktop@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:0:network@cinnamon.org:10', 'panel1:right:1:sound@cinnamon.org:11', 'panel1:right:2:power@cinnamon.org:12', 'panel1:right:3:calendar@cinnamon.org:13']
+enabled-desklets=@as []
+favorite-apps=['firefox.desktop', 'mintinstall.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop', 'code.desktop']
+hotcorner-layout=['scale:true:50', 'expo:false:50', 'scale:false:0', 'desktop:false:0']
+next-applet-id=14
+no-adjacent-panel-barriers=false
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"panelId": 1, "left": 48, "center": 0, "right": 0}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 35}]'
+panel-zone-text-sizes='[{"panelId":1,"left":0,"center":0,"right":0}]'
+panels-autohide=['1:false', '2:false']
+panels-enabled=['1:0:bottom']
+panels-height=['1:57', '2:40']
+panels-hide-delay=['1:0', '2:0']
+panels-show-delay=['1:0', '2:0']
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/a11y/applications]
+screen-reader-enabled=false
+
+[desktop/a11y/keyboard]
+bouncekeys-delay=300
+mousekeys-accel-time=300
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+slowkeys-delay=300
+togglekeys-enable-beep=false
+togglekeys-enable-osd=false
+
+[desktop/a11y/mouse]
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-time=1.2
+
+[desktop/applications/calculator]
+exec='gnome-calculator'
+
+[desktop/applications/terminal]
+exec='gnome-terminal'
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/linuxmint/sele_linuxmint_center.jpg'
+
+[desktop/background/slideshow]
+delay=15
+image-source='xml:///usr/share/cinnamon-background-properties/linuxmint-una.xml'
+
+[desktop/interface]
+clock-show-date=true
+clock-use-24h=false
+cursor-blink-time=1200
+cursor-size=30
+icon-theme='Adwaita'
+scaling-factor=uint32 0
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[desktop/keybindings/wm]
+switch-group=@as []
+
+[desktop/media-handling]
+autorun-never=false
+
+[desktop/sound]
+event-sounds=false
+maximum-volume=150
+volume-sound-enabled=false
+
+[desktop/wm/preferences]
+min-window-opacity=30
+titlebar-font='Monospace 10'
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+
+[muffin]
+resize-threshold=24
+tile-hud-threshold=25
+
+[settings-daemon/peripherals/keyboard]
+delay=uint32 500
+numlock-state='on'
+repeat-interval=uint32 30
+
+[settings-daemon/peripherals/mouse]
+double-click=400
+drag-threshold=8
+motion-threshold=1
+
+[settings-daemon/peripherals/touchpad]
+custom-acceleration=false
+custom-threshold=false
+horizontal-scrolling=true
+motion-acceleration=6.933467741935484
+motion-threshold=4
+scrolling-method=3
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=1800
+sleep-display-battery=1800
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[sounds]
+login-enabled=false
+logout-enabled=false
+plug-enabled=false
+switch-enabled=false
+tile-enabled=false
+unplug-enabled=false
+
+[theme]
+name='Mint-Y-Dark-Red'

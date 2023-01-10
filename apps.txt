@@ -1,0 +1,25 @@
+sublime
+vsc
+dbeaver
+obsstudio
+timeshift
+nala
+python3.10
+ssh
+git
+htop
+blueman
+document-scanner
+jupyterlab==3.5.2
+firefox
+    bookmarks
+    theme
+    visited-urls-colors
+    extensions
+        unhook-remove youtube recommend videos
+        adblock
+        600% volume
+slack
+    extensions
+        jira
+        drive
